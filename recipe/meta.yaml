@@ -1,5 +1,5 @@
 {% set name = "tools4rdf" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/tools4rdf-{{ version }}.tar.gz
-  sha256: e5a826a0bcb034490c2efed0d28c4cde307860065a013e044984812826d6aa06
+  sha256: 84d96b23ac7337a95e6e191c48dc53703dc8536d376e594505a45a126116377f
 
 build:
   noarch: python
